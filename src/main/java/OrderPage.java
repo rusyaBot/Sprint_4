@@ -19,7 +19,7 @@ public class OrderPage {
 
     // Вторая страница (Про аренду)
     private final By deliveryDateFieldClick = By.xpath(".//input[@placeholder = '* Когда привезти самокат']"); // Дата поставить курсор для выбора даты
-    private final By deliveryDateField = By.xpath(".//*[@aria-label='Choose воскресенье, 31-е декабря 2023 г.']"); // Выбрать Дату доставки
+    private final By deliveryDateField = By.xpath(".//*[@aria-label='Choose воскресенье, 14-е января 2024 г.']"); // Выбрать Дату доставки
     private final By periodField3 = By.xpath(".//div[@class = 'Dropdown-option' and text() = 'трое суток']"); // Срок аренды
     private final By colourBlackField = By.xpath(".//input[@id = 'black']"); // Цвет
     private final By commentField = By.xpath(".//input[@placeholder = 'Комментарий для курьера']"); // Комментарий

@@ -60,7 +60,7 @@ public class OrderDataParametersTest {
         orderStatus.getSavedOrder();                         // Сохранили номер заказа
         orderStatus.viewStatusAfterTheFormation();           // Перешли в проверку заказа
         // Проверка карточки заказа по тестовым данным
-        orderStatus.checkOrder(username, surname, address, "Щёлковская", telephone, "3 января", "трое суток", "чёрный жемчуг", "Чистый самокат");
+        orderStatus.checkOrder(username, surname, address, "Щёлковская", telephone, "17 января", "трое суток", "чёрный жемчуг", "Чистый самокат");
     }
 
     // Создание заказа кнопка2 "Заказать". Проверка карточки заказа через поиск
@@ -77,7 +77,7 @@ public class OrderDataParametersTest {
         String orderNumber = orderStatus.getSavedOrder();    // Сохранили номер заказа в буфер для поиска
         orderStatus.viewStatusOrder(orderNumber);            // Перешли в заказ через поиск по номеру
         // Проверка карточки заказа по тестовым данным
-        orderStatus.checkOrder(username, surname, address, "Щёлковская", telephone, "3 января", "трое суток", "чёрный жемчуг", "Чистый самокат");
+        orderStatus.checkOrder(username, surname, address, "Щёлковская", telephone, "17 января", "трое суток", "чёрный жемчуг", "Чистый самокат");
     }
 
     @After
